@@ -1,5 +1,7 @@
 all: build
 build:
+	@echo 正在获取xlsx库
+	@git clone https://github.com/tealeg/xlsx
 	@echo 正在编译xlsx2csv
 	@go build xlsx2csv.go
 	@echo 正在编译csv2xlsx
