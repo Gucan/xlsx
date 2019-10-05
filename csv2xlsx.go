@@ -5,7 +5,7 @@ import (
 	"flag"
 	"fmt"
 	"os"
-	"github.com/tealeg/xlsx"
+	"./xlsx"
 )
 
 var xlsxPath = flag.String("o", "", "Path to the XLSX output file")
